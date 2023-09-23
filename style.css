@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro');
+
+:root {
+    font-size: 30px;
+    /* 1 rem = font-size in root (30px) */
+}
+
+body {  
+    margin: auto;
+    width: 80%;
+    font-family: 'Crimson Pro', serif;
+
+}
+
+div {
+    /* display: flex; */
+    font-size: 20px;
+}
+
+.container {
+    box-sizing: border-box;
+    text-align: justify;
+    height: 300px;
+    width: 80%;
+    padding: 8px;
+    margin: 100px;
+    border: 4px black solid;
+    background-color: rgb(219, 87, 87);
+}
+
+span {
+    display: inline;
+    color: darkviolet;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.paragraph-one {
+    color: rgb(90, 98, 57);
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    /* line-height: 20px; */
+    letter-spacing: 0.6px;
+    word-spacing: 3px;
+    text-decoration: underline wavy red;
+    text-transform: capitalize;
+    font-size: 1em;
+    font-family: 'Caveat', cursive;
+}
+
+.paragraph-two {
+    /* you can only use text-orientation with vertical writing mode */
+    /* writing-mode: vertical-rl; 
+    text-orientation: sideways; */
+    text-shadow: 1px 1px green;
+}
+
+
+
+
+
+
+/* The universal selector becomes helpful when you wish to put
+ a specific style in all the HTML elements within your web page.
+  It can also be used for every single element that is within the element
+  of your HTML page. */
+
+/* margin: auto */
